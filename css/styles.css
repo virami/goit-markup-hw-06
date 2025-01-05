@@ -987,8 +987,10 @@ footer .logo-style {
 
     .footer-container {
         align-items: flex-start;
+        justify-content: flex-start;
         column-gap: 24px;
         row-gap: 72px;
+        width: 548px;
     }
 
     .footer-ctn {
@@ -1006,7 +1008,7 @@ footer .logo-style {
     }
 
     .social-links-ctn-footer {
-        padding: 0px 24px;
+        padding: 0px;
         margin-left: 0;
     }
     
@@ -1033,11 +1035,29 @@ footer .logo-style {
         min-width: 264px;
         margin-right: 24px;
      }
+
+     .footer-form {
+        gap: 0;
+     }
 }
 
 @media screen and (min-width: 1158px) {
     .footer-page {
         padding: 120px 0;
+    }
+
+    .footer-container {
+        align-items: baseline;
+        column-gap: 0;
+        width: 1158px;
+    }
+
+    .footer-ctn {
+        margin-right: 120px;
+    }
+
+    .social-list-footer {
+        margin-right: 80px;
     }
 }
 
